@@ -1,0 +1,42 @@
+# Ignore README (work in progress)
+README.md
+
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Test outputs
+logs/
+reports/
+*.csv
+*.png
+*.jpg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
